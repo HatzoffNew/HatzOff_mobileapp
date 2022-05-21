@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aliyahatzoff">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
+
+    <uses-feature
+        android:name="android.hardware.camera2.full"
+        android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".utils.MyApplication"
+        android:allowBackup="true"
+        android:requestLegacyExternalStorage="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:vmSafeMode="true">
+        <activity android:name="com.aliyahatzoff.Activities.Congratulation"></activity>
+        <activity android:name="com.aliyahatzoff.Activities.Delete" />
+        <activity android:name="com.aliyahatzoff.Activities.Setting" />
+        <activity android:name="com.aliyahatzoff.Activities.TestingMain" />
+        <activity android:name="com.aliyahatzoff.Activities.DiscoverPreviewActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.ComptitionInstruction" />
+        <activity android:name="com.aliyahatzoff.Activities.PreComptitionActivity" />
+       <!-- <activity android:name="com.aliyahatzoff.Activities.FabricationActivity" />-->
+        <activity android:name="com.aliyahatzoff.Activities.OthersProfile" />
+        <activity android:name="com.aliyahatzoff.Activities.ComptitionForm" />
+        <activity android:name="com.aliyahatzoff.Activities.MostPopular" />
+        <activity android:name="com.aliyahatzoff.Activities.EditProfileActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.SearchActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.VideoPlayActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.GallerySelectedVideo_A" />
+        <activity android:name="com.aliyahatzoff.Activities.TrimVideoActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.InterestActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.MusicActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.LoginActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.SignupActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.aliyahatzoff.Activities.PostVideoActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.PreviewVideoActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.SelectedVideoActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.VideoGalleryActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.LandingActivity" />
+        <activity android:name="com.aliyahatzoff.notuseddesign.VideoFilter" />
+        <activity android:name="com.aliyahatzoff.notuseddesign.VideoEffect" />
+        <activity android:name="com.aliyahatzoff.Activities.ProfileEditActivity" />
+        <activity
+            android:name="com.aliyahatzoff.Activities.RecordingActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.aliyahatzoff.notuseddesign.ProfileSwipe" />
+        <activity android:name="com.aliyahatzoff.Activities.OtpVerification" />
+        <activity android:name="com.aliyahatzoff.notuseddesign.MainActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.OnBoardActivity" />
+        <activity android:name="com.aliyahatzoff.Activities.FollwersActivities" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="false" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.aliyahatzoff.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <receiver
+            android:name=".utils.OtpReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVE" />
+            </intent-filter>
+        </receiver>
+        <!--<receiver android:name=".Utils.OtpReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>-->
+
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+        <service
+            android:name="com.aliyahatzoff.Services.UploadService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="startservice" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.aliyahatzoff.Activities.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="@string/rzp_test" />
+    </application>
+
+</manifest>

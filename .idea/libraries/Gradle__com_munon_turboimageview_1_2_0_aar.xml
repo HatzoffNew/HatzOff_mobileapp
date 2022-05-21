@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.munon:turboimageview:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/197d670e331b68691c450240189c2608/transformed/jetified-turboimageview-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/197d670e331b68691c450240189c2608/transformed/jetified-turboimageview-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/197d670e331b68691c450240189c2608/transformed/jetified-turboimageview-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.munon/turboimageview/1.2.0/5fa929e694f55608f52814e4a93e404c598fd1bd/turboimageview-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.munon/turboimageview/1.2.0/2da626f17ba2e77cf71d290b5e890923b98177c9/turboimageview-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-cronet:17.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/0b6c831fd2e72ea98cd6d560127f86dd/transformed/jetified-play-services-cronet-17.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/0b6c831fd2e72ea98cd6d560127f86dd/transformed/jetified-play-services-cronet-17.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/0b6c831fd2e72ea98cd6d560127f86dd/transformed/jetified-play-services-cronet-17.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.google.android.gms/play-services-cronet/17.0.1/2fd78737d261ec5383254c673f9456c5c4f91309/play-services-cronet-17.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

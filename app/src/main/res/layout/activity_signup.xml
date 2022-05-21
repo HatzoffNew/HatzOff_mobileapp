@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#181b2c">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/logo"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/todo" />
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cancelred"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:elevation="8dp" tools:targetApi="lollipop">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_your_name"
+            android:layout_gravity="center"
+            android:id="@+id/name"
+            android:layout_margin="10dp"
+            android:textColorHint="#626576"
+            android:textColor="#fff"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            android:autofillHints="" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cancelred"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="28dp"
+        android:elevation="8dp" tools:targetApi="lollipop">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_your_mobile_number"
+            android:layout_gravity="center"
+            android:id="@+id/mobile"
+            android:layout_margin="10dp"
+            android:textColor="#fff"
+            android:inputType="number"
+            android:textColorHint="#626576"
+            android:background="@android:color/transparent"
+            android:importantForAutofill="no" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:id="@+id/buttonContinue"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_marginStart="15sp"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_weight="0.7"
+            android:textSize="16sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5sp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_marginEnd="15sp"
+            android:background="@color/white"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/fblogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="0.5"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/blue_button">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+   <LinearLayout
+            android:id="@+id/twitterlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/light_blue_button">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+   -->
+    </LinearLayout>
+
+
+</LinearLayout>

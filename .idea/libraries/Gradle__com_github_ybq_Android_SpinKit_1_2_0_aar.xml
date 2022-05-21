@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.ybq:Android-SpinKit:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/19da5b3bbcd50e5a2e228eea201a0923/transformed/jetified-Android-SpinKit-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/19da5b3bbcd50e5a2e228eea201a0923/transformed/jetified-Android-SpinKit-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/19da5b3bbcd50e5a2e228eea201a0923/transformed/jetified-Android-SpinKit-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.github.ybq/Android-SpinKit/1.2.0/ce0626c0a04f7cc4d59c6d5dbdc4e4caea83b6bd/Android-SpinKit-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.github.ybq/Android-SpinKit/1.2.0/8e167032d90bef21f6e90e39d1b3ee11a8fd33d0/Android-SpinKit-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

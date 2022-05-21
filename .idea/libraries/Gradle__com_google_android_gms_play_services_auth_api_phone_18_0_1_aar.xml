@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-auth-api-phone:18.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/37632cb5688ce70b9c6d34db9ec06ce3/transformed/jetified-play-services-auth-api-phone-18.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/37632cb5688ce70b9c6d34db9ec06ce3/transformed/jetified-play-services-auth-api-phone-18.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/37632cb5688ce70b9c6d34db9ec06ce3/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.google.android.gms/play-services-auth-api-phone/18.0.1/e50322b5fef28962e883380be05fcf2298222b00/play-services-auth-api-phone-18.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

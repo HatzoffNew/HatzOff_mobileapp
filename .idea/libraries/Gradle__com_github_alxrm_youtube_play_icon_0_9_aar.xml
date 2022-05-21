@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.alxrm:youtube-play-icon:0.9@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/5a01febf6dcd98ed82abdb52ebaf3007/transformed/jetified-youtube-play-icon-0.9/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/5a01febf6dcd98ed82abdb52ebaf3007/transformed/jetified-youtube-play-icon-0.9/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/5a01febf6dcd98ed82abdb52ebaf3007/transformed/jetified-youtube-play-icon-0.9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.github.alxrm/youtube-play-icon/0.9/a6cf26735d93ea85cb57ba734a094a7b3a542fd9/youtube-play-icon-0.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

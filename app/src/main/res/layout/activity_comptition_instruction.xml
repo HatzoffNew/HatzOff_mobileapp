@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".Activities.ComptitionInstruction">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/register_now"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text="Register Now"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_margin="5sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn16"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220sp"
+        android:id="@+id/rgv">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/singing"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/comptition_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Singing"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            android:layout_margin="10sp"
+            android:fontFamily="@font/open_sans_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/indian_voice"
+            android:text="Competition Name"
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indian Voice"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/indian_voice"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/rgv">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Age Catagory"
+                    android:textColor="@color/white"
+                    android:layout_margin="10sp"
+                    android:textSize="15sp"
+                    android:fontFamily="@font/open_sans"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15 - 20 years"
+                    android:textSize="28sp"
+                    android:layout_marginLeft="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:textColor="@color/red"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:elevation="8sp"
+                    android:background="@color/black">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Duration of Event"
+                        android:textColor="@color/white"
+                        android:layout_margin="2sp"
+                        android:fontFamily="@font/open_sans"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1st April 2021 - 31st March 2021"
+                        android:textSize="20sp"
+                        android:layout_margin="10sp"
+                        android:fontFamily="@font/open_sans"
+                        android:textColor="@color/red"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Competition Details"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_margin="10sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eligibility for Singing Audition"
+                    android:textColor="@color/red"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="10sp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Participant age must be above 15 years."
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Below 15 year can also apply under  \nparents and guardian undertaking"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Upper Age limits 35 years"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- No Criminal Background"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Only for Indian Citizens"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contestant must carry original and photocopies of follow documents."
+                    android:textColor="@color/red"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="10sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Valid government identification proof \nsuch as PAN Card/Passport/Aadhar card / Driving License/Voter Identity Card."
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Proof of Residence."
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Recently Captured password size Photographs"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Age Proof: Passport/Birth Certification / School Certification\n/Count Affidavit"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- In Case of a minor,Parent's of Guardians who is coming along wtih them must also possess these documents."
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=":- Only for Indian Citizens"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:fontFamily="@font/open_sans"
+                    android:layout_marginLeft="30sp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/black">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hosted By:-"
+                        android:layout_margin="10sp"
+                        android:textColor="@color/white"/>
+
+
+                    <ImageView
+                        android:layout_width="30sp"
+                        android:layout_height="30sp"
+                        android:layout_marginLeft="20sp"
+                        android:src="@drawable/logo"/>
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

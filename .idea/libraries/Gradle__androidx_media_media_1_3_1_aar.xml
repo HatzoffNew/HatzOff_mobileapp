@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.media:media:1.3.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/b9ccb845776a3c9ce480289e3f0278af/transformed/media-1.3.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/b9ccb845776a3c9ce480289e3f0278af/transformed/media-1.3.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/b9ccb845776a3c9ce480289e3f0278af/transformed/media-1.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/b9ccb845776a3c9ce480289e3f0278af/transformed/media-1.3.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/androidx.media/media/1.3.1/45a1de284a37d8ecf77053375847ad1f5fa1f4be/media-1.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-common:7.1.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/5cf900a39f22fe4499d991a5105bc7da/transformed/jetified-facebook-common-7.1.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/5cf900a39f22fe4499d991a5105bc7da/transformed/jetified-facebook-common-7.1.0/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/5cf900a39f22fe4499d991a5105bc7da/transformed/jetified-facebook-common-7.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.facebook.android/facebook-common/7.1.0/94ac624197731eeed653777b71edd6523f5069a5/facebook-common-7.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.facebook.android/facebook-common/7.1.0/443b9fcdce38d95b3513e7fce7b774e0bc02290c/facebook-common-7.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="match_parent"
+        tools:context=".Activities.FabricationActivity">
+<!--
+        <TextureView
+            android:id="@+id/videoSurface"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true" />
+-->
+       <com.aliyahatzoff.tedit.PhotoEditorView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_close_24" />
+
+
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:id="@+id/imgUndo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:padding="8dp"
+            android:src="@drawable/undo"
+            android:tint="@color/white"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_undo"
+            android:fontFamily="@font/open_sans_bold"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imgUndo"
+            android:text="Undo"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_undo"
+            android:id="@+id/imgDone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_arrow_downward_24"
+            android:tint="@color/white"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:fontFamily="@font/open_sans_bold"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imgDone"
+            android:text="Download"
+            android:layout_marginRight="8sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_layer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#1c000000"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/postvideo"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/btn16"
+                android:text="@string/next"
+                android:textAllCaps="false"
+                android:textColor="#fff" />
+
+
+            <ImageView
+                android:id="@+id/imgDelete"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_close_24"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/imgSticker"
+                app:layout_constraintTop_toBottomOf="@id/imgSticker" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottom_layer">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

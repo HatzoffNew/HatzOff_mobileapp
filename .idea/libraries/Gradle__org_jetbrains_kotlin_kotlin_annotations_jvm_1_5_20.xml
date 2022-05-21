@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jetbrains.kotlin:kotlin-annotations-jvm:1.5.20">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotations-jvm/1.5.20/5735f44b4581d8dfcffb193923b7c5b889f0aa7e/kotlin-annotations-jvm-1.5.20.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotations-jvm/1.5.20/5b8f86fea035328fc9e8c660773037a3401ce25f/kotlin-annotations-jvm-1.5.20-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotations-jvm/1.5.20/72dc8eaf2c8d94aa7a2f84db7533c872c96dfb56/kotlin-annotations-jvm-1.5.20-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

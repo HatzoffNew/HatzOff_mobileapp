@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#181b2c</color>
+    <color name="colorPrimaryDark">#181b2c</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="selected_dot">#FF5722</color>
+    <color name="idle_dot">#FF9800</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#181b2c</color>
+    <color name="red">#F44336</color>
+    <color name="pink">#e22052</color>
+    <color name="gray">#D6D5D5</color>
+    <color name="voilet">#7F00FF</color>
+    <color name="fifty_transparent_black">#802F2F2F</color>
+    <color name="bg">#181b2c</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="light_white">#f1f1f3</color>
+    <color name="loutbg">#181b2c</color>
+    <color name="color_gray_lightbtn">#DCDBDB</color>
+
+    <color name="yellow">#FFD600</color>
+    <color name="blue">#0328FB</color>
+    <color name="sky_blue">#039DFB</color>
+    <color name="light_sky_blue">#039DFB</color>
+    <color name="dark_shine">#02FAD8</color>
+    <color name="parrot_green">#02FA69</color>
+    <color name="p_green">#61F801</color>
+    <color name="dark_yellow">#FFAB00</color>
+    <color name="brown">#7A1B03</color>
+
+
+
+
+</resources>

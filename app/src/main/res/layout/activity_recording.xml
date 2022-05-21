@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn4"
+    tools:context=".Activities.RecordingActivity">
+    <RelativeLayout
+        android:id="@+id/screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.otaliastudios.cameraview.CameraView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cameraFacing="back"
+            app:cameraFlash="auto"
+            android:keepScreenOn="true"
+            app:cameraWhiteBalance="auto"
+            app:cameraPlaySounds="false"
+            app:cameraExperimental="true"
+            app:cameraEngine="camera2"
+            app:cameraPreview="glSurface"
+            app:cameraAudio="on"
+            app:cameraGestureTap="autoFocus"
+            app:cameraGestureLongTap="none"
+            app:cameraAutoFocusMarker="@string/cameraview_default_autofocus_marker"
+            app:cameraGesturePinch="zoom"
+            app:cameraGestureScrollHorizontal="filterControl2"
+            app:cameraGestureScrollVertical="exposureCorrection"
+            android:id="@+id/camera"
+            app:cameraAudioBitRate="0"
+            app:cameraVideoSizeMinWidth="100"
+            app:cameraVideoSizeMinHeight="100"
+
+            app:cameraMode="video">
+
+        </com.otaliastudios.cameraview.CameraView>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="64sp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="20sp"
+                android:layout_alignParentEnd="true"
+                tools:layout_editor_absoluteX="338dp"
+                tools:layout_editor_absoluteY="403dp">
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8sp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:tint="@color/white"
+                    app:backgroundTint="@color/black"
+                    app:fabSize="mini"
+                    app:layout_constraintBottom_toTopOf="@+id/speed"
+                    app:layout_constraintEnd_toEndOf="@+id/speed"
+                    app:layout_constraintStart_toStartOf="@+id/speed"
+                    app:srcCompat="@drawable/ic_baseline_timer_24" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/speed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/ic_baseline_speed_24"
+                    android:tint="@color/white"
+                    app:backgroundTint="@color/bg"
+                    app:fabSize="mini"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            <com.aliyahatzoff.SegmentProgress.SegmentedProgressBar
+                android:id="@+id/video_progress"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+
+                android:background="@color/fifty_transparent_black"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/timeprg"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:id="@+id/cancel"
+                android:src="@drawable/ic_white_cross"
+                android:layout_below="@id/video_progress"
+                android:contentDescription="@string/todo" />
+            <LinearLayout
+                android:id="@+id/addsound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="15sp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_audiotrack_24"
+                    android:layout_alignLeft="@id/record"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:id="@+id/music"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:text="Add Music"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/img_setting"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_baseline_settings_24"
+                android:layout_below="@id/video_progress"
+                android:contentDescription="@string/todo"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imgtimer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_baseline_timer_24"
+            android:layout_above="@id/lout_timer"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="25dp"
+            android:visibility="gone"
+            android:contentDescription="@string/todo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="25dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_above="@+id/recorder"
+            android:layout_margin="35dp"
+            android:visibility="gone"
+            android:id="@+id/lout_timer"
+            android:background="@drawable/pixels_bg">
+
+            <TextView
+                android:id="@+id/one"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:text="@string/_0_3_px"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:background="@color/gray"
+                android:alpha="0.7"
+                android:layout_gravity="center"
+                app:layout_anchorGravity="center"/>
+
+
+            <TextView
+                android:id="@+id/two"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:text="@string/_0_5_px"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:background="@color/gray"
+                android:alpha="0.7"
+                android:layout_gravity="center"
+                app:layout_anchorGravity="center"/>
+            <TextView
+                android:id="@+id/three"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:text="@string/_1_px"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:background="@color/gray"
+                android:alpha="0.7"
+                android:layout_gravity="center"
+                app:layout_anchorGravity="center"/>
+
+            <TextView
+                android:id="@+id/four"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:layout_gravity="center"
+                android:text="@string/_1_5_px"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:background="@color/gray"
+                android:alpha="0.7"
+                android:layout_gravity="center"
+                app:layout_anchorGravity="center"/>
+
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:text="3x"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_above="@+id/recorder"
+            android:layout_margin="35dp"
+            android:visibility="gone"
+            android:id="@+id/lout_speed"
+            android:background="@drawable/pixels_bg">
+
+            <TextView
+                android:id="@+id/timer30sec"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:text="30s"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:background="@color/gray"
+                android:alpha="0.7"
+                android:layout_gravity="center"
+                app:layout_anchorGravity="center"/>
+
+
+            <TextView
+                android:id="@+id/timer60sec"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:text="60s"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:background="@color/gray"
+                android:alpha="0.7"
+                android:layout_gravity="center"
+                app:layout_anchorGravity="center"/>
+            <TextView
+                android:id="@+id/timer90sec"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.25"
+                android:text="90s"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#fff"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="34dp"
+                android:background="@color/gray"
+                android:alpha="0.7"
+                android:layout_gravity="center"
+                app:layout_anchorGravity="center"/>
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:padding="5dp"
+            android:id="@+id/recorder">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:id="@+id/gallery"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/todo"
+                android:padding="5dp"
+                android:src="@drawable/ic_gallery_icon" />
+
+            <ImageView
+                android:id="@+id/addfilter"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:layout_marginLeft="80sp"
+                android:layout_alignLeft="@id/gallery"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/ic_baseline_photo_filter_24" />
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/record"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:scaleType="centerCrop"
+                android:layout_centerInParent="true"
+                app:lottie_rawRes="@raw/vidoestart"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_recoding_no"
+                android:contentDescription="@string/todo" />
+            <ImageView
+                android:id="@+id/facing"
+                android:layout_width="50dp"
+                android:padding="5dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_height="45dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/ic_baseline_flip_camera_ios_24"
+                android:contentDescription="@string/todo" />
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="50dp"
+                android:padding="5dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/done"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_check_circle_24"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

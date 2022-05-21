@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/colorPrimary">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/videoview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:use_controller="true"
+            app:resize_mode="fill"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:controller_layout_id="@layout/exo_playback_control_view"
+            />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/videoview"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/title"
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="25sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorAccent"
+            />
+    </RelativeLayout>
+</RelativeLayout>

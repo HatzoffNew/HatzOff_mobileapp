@@ -1,0 +1,7 @@
+include ':app'
+rootProject.name = "HatzOff"
+
+
+gradle.ext.exoplayerRoot = '../exoplayer15'
+gradle.ext.exoplayerModulePrefix = 'exoplayer-'
+apply from: new File(gradle.ext.exoplayerRoot, 'core_settings.gradle')

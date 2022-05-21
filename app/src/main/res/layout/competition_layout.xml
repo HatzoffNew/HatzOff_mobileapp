@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210sp">
+
+        <ImageView
+            android:id="@+id/comptition_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/music"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indian Voice"
+            android:textSize="18sp"
+            android:layout_margin="10sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/open_sans"/>
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22nd Feb 2021"
+            android:textSize="18sp"
+            android:layout_margin="10sp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/red"
+            android:fontFamily="@font/open_sans"/>
+
+
+        <TextView
+            android:id="@+id/comptition_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Singing"
+            android:textSize="18dp"
+            android:layout_margin="10sp"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/open_sans_bold"/>
+
+
+        <TextView
+            android:id="@+id/comptition_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textSize="18dp"
+            android:layout_margin="10sp"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/open_sans"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

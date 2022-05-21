@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.SanojPunchihewa:InAppUpdater:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/c9b0d69dcb6c44b08f6d08b5391454fb/transformed/jetified-InAppUpdater-1.0.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/c9b0d69dcb6c44b08f6d08b5391454fb/transformed/jetified-InAppUpdater-1.0.5/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/c9b0d69dcb6c44b08f6d08b5391454fb/transformed/jetified-InAppUpdater-1.0.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.github.SanojPunchihewa/InAppUpdater/1.0.5/7a9edf515854a8290d178b63ecfe1e79c6a73499/InAppUpdater-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

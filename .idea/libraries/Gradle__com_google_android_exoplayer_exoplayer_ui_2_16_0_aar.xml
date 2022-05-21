@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.exoplayer:exoplayer-ui:2.16.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/c9a0b33791297c55816f4f18dd399b28/transformed/jetified-exoplayer-ui-2.16.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/c9a0b33791297c55816f4f18dd399b28/transformed/jetified-exoplayer-ui-2.16.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/c9a0b33791297c55816f4f18dd399b28/transformed/jetified-exoplayer-ui-2.16.0/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/c9a0b33791297c55816f4f18dd399b28/transformed/jetified-exoplayer-ui-2.16.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/com.google.android.exoplayer/exoplayer-ui/2.16.0/970b189850d2c256bb3062419c486acb23015f5b/exoplayer-ui-2.16.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

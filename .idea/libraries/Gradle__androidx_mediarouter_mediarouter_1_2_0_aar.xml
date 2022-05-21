@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.mediarouter:mediarouter:1.2.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/232339072ab86e7900d6a63d2a207851/transformed/mediarouter-1.2.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/232339072ab86e7900d6a63d2a207851/transformed/mediarouter-1.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/232339072ab86e7900d6a63d2a207851/transformed/mediarouter-1.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/transforms-3/232339072ab86e7900d6a63d2a207851/transformed/mediarouter-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../other/smart_school_android_app_src/caches/modules-2/files-2.1/androidx.mediarouter/mediarouter/1.2.0/1faa026eac6b603c310e63f497d18cf6444b4de8/mediarouter-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

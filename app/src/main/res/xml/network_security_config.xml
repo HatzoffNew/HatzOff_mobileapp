@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">infinityandroid.com</domain>
+
+        <domain includeSubdomains="true">2factor.in</domain>
+        <domain includeSubdomains="true">ablesoftech.com</domain>
+
+        <domain includeSubdomains="true">Hatzofflatest-env.eba-3wa83htn.ap-south-1.elasticbeanstalk.com</domain>
+        <domain includeSubdomains="true">192.168.0.207</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">hatzoff-env.eba-7svxhd8x.ap-south-1.elasticbeanstalk.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
